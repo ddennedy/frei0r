@@ -32,6 +32,7 @@ plugin_LTLIBRARIES = \
 	c0rners.la \
 	cartoon.la \
 	cluster.la \
+        comic.la \
 	colgate.la \
 	coloradj_RGB.la \
 	colordistance.la \
@@ -199,6 +200,7 @@ bw0r_la_SOURCES = filter/bw0r/bw0r.c
 c0rners_la_SOURCES = filter/c0rners/c0rners.c filter/c0rners/interp.h
 cartoon_la_SOURCES = filter/cartoon/cartoon.cpp
 cluster_la_SOURCES = filter/cluster/cluster.c
+comic_la_SOURCES = filter/comic/comic.c
 colgate_la_SOURCES = filter/colgate/colgate.c
 coloradj_RGB_la_SOURCES = filter/coloradj/coloradj_RGB.c
 colordistance_la_SOURCES = filter/colordistance/colordistance.c
